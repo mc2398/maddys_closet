@@ -1,0 +1,269 @@
+/* Styling across all pages*/
+body {
+	color: #F2055C;
+	text-align: center;
+	background-color: white;
+}
+nav {
+	text-align: left;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}
+.attribution {
+	color: #E087AC;
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+	padding-left:0;
+	}
+
+/* HOMEPAGE */
+
+/* header for the Homepage*/
+.homepage-head-background {
+	background: url('images/homepage-header-1.svg');
+}
+#welcome {
+	font-family: 'Moo Lah Lah', serif;
+	font-size: 6em;
+	color: black;
+}
+.homepage {
+	display: grid;
+	grid-template-columns: 20px 1fr 20px;
+	grid-template-rows: 1fr 300px 200px;
+	gap: 20px;
+}
+#navigation-menu {
+	grid-column-start:2;
+	grid-row-start:2;
+	display:inline-block;
+	text-align:center;
+}
+.menu {
+	display:inline-block;
+	font-size:1.75em;
+}
+.closet-graphic {
+	grid-column-start:2;
+	background-color: #FFCAD7;
+}
+#homepage-footer {
+	grid-column-start:2;
+	grid-row-start:3;
+}
+
+/* Homepage Nav Bar Styling */
+#menu-title {
+	font-size: 2em;
+	color: #9F4BF2;
+}
+
+#menu-1 {
+	color:#FD0073;
+	text-decoration: none;
+	padding-right: 50px;
+}
+#menu-2 {
+	color:#025939;
+	text-decoration: none;
+	padding-right: 50px;
+}
+#menu-3 {
+	color:#171117;
+	text-decoration: none;
+	padding-right: 50px;
+}
+#menu-4 {
+	color:#EB6142;
+	text-decoration: none;
+	padding-right: 50px;
+}
+#menu-5 {
+	color:#9F9E9A;
+	text-decoration: none;
+	padding-right: 50px;
+}
+
+li.menu {
+	text-align:center;
+}
+/* Grid Layout- Homepage*/
+
+
+div.closet-graphic {
+	position: relative;
+}
+
+#pd-closet-graphic {
+	width:300px;
+	position: absolute;
+	top:165px;
+	left:25%;
+}
+#gt-closet-graphic {
+	width:150px;
+	position: absolute;
+	top:165px;
+	left:37%;
+}
+#bt-closet-graphic {
+	width:300px;
+	position: absolute;
+	top:165px;
+	left:40%;
+}
+#ps-closet-graphic {
+	width:300px;
+	position: absolute;
+	top:102px;
+	left:47%;
+}
+#ds-closet-graphic {
+	width:200px;
+	position: absolute;
+	top:145px;
+	left:55%;
+}
+
+.outfit:hover {
+	rotate:20deg;
+	transform:scale(1.1);
+}
+
+/* Homepage- text content styling*/
+.About-Message{
+	font-family: 'Calistoga', serif;
+	margin-left: 400px;
+	margin-right: 400px;
+	font-size:2em;
+}
+
+/* SUB PAGES */
+
+/*Heading for Sub-Pages*/
+.pink-dress {
+	color: #F51387;
+	text-align: center;
+}
+header {
+	color: black;
+	background-color: #000000;
+	padding: 80px 0;
+}
+
+.pd-head-background {
+	background: url('images/pink-dress-heading-1.png');
+}
+.ds-head-background {
+	background: url('images/disco-skirt-header-1.svg');
+}
+.gt-head-background {
+	background: url('images/green-top-header-1.svg');
+}
+h1 {
+	background-color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding: 5px 0;
+	font-family: 'Gorditas', serif;
+}
+.subhead {
+	font-size: 0.75em;
+}
+
+/*Images on sub-Pages*/
+img.subpage-graphic {
+	max-width:1000px;
+}
+
+
+/* Grid Layout- for Sub-Pages*/
+.outfit-specs {
+	display: grid;
+	grid-template-columns: 100px 1fr 2fr 100px;
+	grid-auto-rows: repeat(4, 1fr)
+	column-gap: 50px;
+}
+.subtitle {
+	grid-column-start: 2;
+}
+.content {
+	grid-column-start: 3;
+	padding-left: 50px;
+	text-align:left;
+	padding-top: 20px;
+}
+.subtitle {
+	font-size:1.5em;
+}
+li {
+	padding: 5px;
+}
+img li {
+	max-width: 300px;
+}
+
+/* Text Styling for Body Pages Content */
+#pd-body-text {
+	color: #FD0073;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}
+#gt-body-text {
+	color: #025939;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+	}
+#bt-body-text {
+	color:black;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}	
+#ps-body-text {
+	color:#EB6142;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}	
+#ds-body-text {
+	color: silver;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}
+.ll-title {
+	font-size:1.4em;
+}
+/* Navigation (Buttons) for Sub-Pages*/
+button {
+	color: white;
+	background-color: #FFCAD7;
+	padding: 20px;
+	font-size: 1.5em;
+	border-radius: 10px;
+	font-family: 'Gorditas', serif;
+	margin-top: 20px;
+}
+
+button a {
+	color:white;
+}
+
+#pink-home-button {
+	background-color: #F2055C;
+}
+#disco-home-button {
+	background-color: silver;
+}
+#green-home-button {
+	background-color: #94E572;
+}
+#tee-home-button {
+	background-color: black;
+}
+#pleated-home-button {
+	background-color: #EB6142;
+}

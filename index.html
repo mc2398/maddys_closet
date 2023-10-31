@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Maddy's Closet</title>
+  	<meta name="description" content="A virtual closet to showcase my sewing efforts">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Calistoga&family=Chela+One&family=Cherry+Swash&family=Dangrek&family=DynaPuff&family=Gorditas&family=Lily+Script+One&family=Mochiy+Pop+P+One&family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+
+  </head>
+
+  <body>
+  <header class="homepage-head-background">
+    <h1 id='welcome'>Maddy's Closet</h1>
+    <!--Note to self- replace the Welcome heading with a Maddy's Closet graphic -->
+    <button id="welcome-text" onclick="yassify()">Make the Header Pink!</button>
+    <button id="revert" onclick="makeBoring()">Return the text to black</button>
+  </header>
+
+  <section class="homepage">
+  	
+  	  <section class="closet-graphic">
+  		<div class="closet-graphic">
+  			<figure>
+          <!-- Note to self- edit this alt text -->
+  			<img src="images/closet-graphic-1@3x.png" alt="a pink bureau filled with clothes" width="1080">
+  			</figure>
+        <div class="outfit" id="pd-closet-graphic"><a href="pink-dress.html"><img src="images/pink-dress-closet-graphic-1.png" alt="pink dress clickable link to sub page" width="400"></a></div>
+        <div class="outfit" id="gt-closet-graphic"><a href="green-top.html"><img src="images/green-top-closet-graphic-1.png" alt="green floral print top clickable link to subpage" width="175"></a></div>
+        <div class="outfit" id="bt-closet-graphic"><a href="black-shirt.html"><img src="images/black-top-closet-graphic-1.png" alt="black t-shirt clickable link to subpage" width="200"></a></div>
+        <div class="outfit" id="ps-closet-graphic"><a href="pleated-skirt.html"><img src="images/pleated-skirt-closet-graphic-1.png" alt="pink and orange color pleated skirt clickable link to subpage" width="250"></a></div>
+        <div class="outfit" id="ds-closet-graphic"><a href="disco-skirt.html"><img src="images/disco-skirt-closet-graphic-1.png" alt="sparkly silver skirt clickable link to subpage" width="175"></a></div>
+  		</div>
+
+      <!-- Note to self- div here for space between the room scene and the welcome message-->
+      <div></div>
+
+      <div class="About-Message">
+        <h3>Welcome to Maddy’s Closet.  An homage to slow(ly made) fashion.</h3>
+        <p id="about-text">I am a self-taught (extremely) amateur hobbyist seamstress.  Hence why all of my pieces are slowly, and to be honest, painstakingly, made.<br>  To check out some of the pieces I have finished in 2023, click on the graphics inside the closet above, or check out the navigation menu below!</p> 
+      </div>
+  </section>
+
+    <div id="navigation-menu">
+  <nav>
+    <h1 id='menu-title'>Menu</h1>
+    <ul>
+    <li class="menu"><img src="images/flower-graphic-pink-dress-1.svg" alt="pink flower" height= 50px><a href="pink-dress.html" id="menu-1">Pink Dress</a></li>
+    <li class="menu"><img src="images/flower-graphic-green-top-1.svg" alt="green flower" height= 50px><a href="green-top.html" id="menu-2">Green Top</a></li>
+    <li class="menu"><img src="images/flower-graphic-black-top-1.svg" alt="black flower with pink center" height= 50px><a href="black-shirt.html" id="menu-3">Black T-Shirt</a></li>
+    <li class="menu"><img src="images/flower-graphic-pleated-skirt-1.svg" alt="orange flower" height= 50px><a href="pleated-skirt.html" id="menu-4">Pleated Skirt</a></li>
+    <li class="menu"><img src="images/flower-graphic-disco-top-1.svg" alt="green flower" height= 50px><a href="disco-skirt.html" id="menu-5">Disco Skirt</a></li>
+  </ul>
+  </nav>
+  </div>
+
+  <footer id="homepage-footer">
+    <p class="attribution">© Madeleine Casey 2023</p>
+  </footer>
+
+  </body>
+
+
+</html>
