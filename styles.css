@@ -38,11 +38,16 @@ ul {
 	flex-direction: column;
 /*	width:100%;*/
 }
-.closet-graphic figure {
+
+/*.closet-graphic figure {
+	width:100%;
+	margin:0;
+}*/
+
+.closet-graphic picture {
 	width:100%;
 	margin:0;
 }
-
 /* Grid Layout- Homepage*/
 
 section.background-graphic {
@@ -57,7 +62,7 @@ div.closet-graphic {
 	/*display:flex;
 	flex-direction: column;*/
 }
-
+@media (min-width: 800px){
 #pd-closet-graphic {
 	width:20%;
 	position: absolute;
@@ -88,7 +93,39 @@ div.closet-graphic {
 	top:27.5%;
 	left:58%;
 }
-
+}
+@media (max-width:799px){
+#pd-closet-graphic {
+	width:30%;
+	position: absolute;
+	top:30%;
+	left:42%;
+}
+#gt-closet-graphic {
+	width:8%;
+	position: absolute;
+	top:30%;
+	left:50%;
+}
+#bt-closet-graphic {
+	width:10%;
+	position: absolute;
+	top:30%;
+	left:52%;
+}
+#ps-closet-graphic {
+	width:14%;
+	position: absolute;
+	top:23.5%;
+	left:53%;
+}
+#ds-closet-graphic {
+	width:10%;
+	position: absolute;
+	top:27.5%;
+	left:58%;
+}
+}
 .outfit:hover {
 	rotate:20deg;
 	transform:scale(1.1);
