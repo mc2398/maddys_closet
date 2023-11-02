@@ -28,7 +28,8 @@ ul {
 /* header for the Homepage*/
 .homepage-head-background {
 	background: url('images/homepage-header-1.svg');
-/*	background-repeat:no-repeat;*/
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
 }
 #welcome {
 	font-family: 'Moo Lah Lah', serif;
@@ -247,10 +248,14 @@ color: #FD0073;
 color: #A6175A;
 }
 #gt-body-text {
-	color: #025939;
+	color: #D950D7;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
+	letter-spacing:.1rem;
 	}
+#gt-body-text .subtitle {
+color: #025939;
+}
 #bt-body-text {
 	color:black;
 	font-family: 'Calistoga', serif;
@@ -265,6 +270,7 @@ color: #A6175A;
 	color: silver;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
+	letter-spacing:.1rem;
 }
 }
 .ll-title {
