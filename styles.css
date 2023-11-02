@@ -33,29 +33,19 @@ ul {
 	font-size: 6em;
 	color: black;
 }
+
+/* Content Layout- Homepage*/
+
 .homepage {
 	display: flex;
 	flex-direction: column;
-/*	width:100%;*/
 }
-
-/*.closet-graphic figure {
-	width:100%;
-	margin:0;
-}*/
 
 .closet-graphic picture {
 	width:100%;
 	margin:0;
 }
-/* Grid Layout- Homepage*/
 
-section.background-graphic {
-	/*background-image: url('images/homepage-background-graphic-desktop-1.png');*/
-	/*background-size:100%;
-	background-repeat:no-repeat;*/
-/*	width:100%;*/
-}
 div.closet-graphic {
 	position: relative;
 	width:100%;
