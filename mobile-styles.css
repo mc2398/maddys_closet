@@ -1,3 +1,4 @@
+/*Making the Outfit graphics responsive for mobile*/
 #pd-closet-graphic {
 	width:33%;
 	position: absolute;
@@ -27,4 +28,42 @@
 	position: absolute;
 	top:21.5%;
 	left:55%;
+}
+
+/*modifying the menu display for mobile*/
+#home-nav {
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+}
+
+.menu {
+	display:inline-block;
+	font-size:1.75em;
+	margin-left: 8%;
+}
+
+/*Making the sub page content layout flex instead of grid for mobile*/
+.outfit-specs {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10%;
+}
+/*.subtitle {
+	grid-column-start: 2;
+}
+.content {
+	grid-column-start: 3;
+	padding-left: 50px;
+	text-align:left;
+	padding-top: 20px;
+}*/
+.subtitle {
+	font-size:1.5em;
+}
+/*li {
+	padding: 5px;
+}*/
+img li {
+	max-width: 300px;
 }

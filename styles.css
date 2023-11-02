@@ -86,38 +86,6 @@ div.closet-graphic {
 	left:58%;
 }
 }
-/*@media (max-width:800px){
-#pd-closet-graphic {
-	width:33%;
-	position: absolute;
-	top:23.5%;
-	left:26%;
-}
-#gt-closet-graphic {
-	width:14%;
-	position: absolute;
-	top:24%;
-	left:38%;
-}
-#bt-closet-graphic {
-	width:17%;
-	position: absolute;
-	top:24%;
-	left:44%;
-}
-#ps-closet-graphic {
-	width:21%;
-	position: absolute;
-	top:17%;
-	left:48%;
-}
-#ds-closet-graphic {
-	width:15%;
-	position: absolute;
-	top:21.5%;
-	left:55%;
-}*/
-}
 .outfit:hover {
 	rotate:20deg;
 	transform:scale(1.1);
@@ -238,6 +206,7 @@ img.subpage-graphic {
 
 
 /* Grid Layout- for Sub-Pages*/
+@media (min-width: 799px){
 .outfit-specs {
 	display: grid;
 	grid-template-columns: 1fr 5fr 10fr 1fr;
@@ -262,7 +231,7 @@ li {
 img li {
 	max-width: 300px;
 }
-
+}
 /* Text Styling for Body Pages Content */
 #pd-body-text {
 	color: #FD0073;
