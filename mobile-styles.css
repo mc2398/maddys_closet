@@ -1,0 +1,30 @@
+#pd-closet-graphic {
+	width:33%;
+	position: absolute;
+	top:23.5%;
+	left:26%;
+}
+#gt-closet-graphic {
+	width:14%;
+	position: absolute;
+	top:24%;
+	left:38%;
+}
+#bt-closet-graphic {
+	width:17%;
+	position: absolute;
+	top:24%;
+	left:44%;
+}
+#ps-closet-graphic {
+	width:21%;
+	position: absolute;
+	top:17%;
+	left:48%;
+}
+#ds-closet-graphic {
+	width:15%;
+	position: absolute;
+	top:21.5%;
+	left:55%;
+}

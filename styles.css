@@ -1,3 +1,5 @@
+@import url('mobile-styles.css') (max-width:800px);
+
 /* Styling across all pages*/
 body {
 	color: #F2055C;
@@ -84,7 +86,7 @@ div.closet-graphic {
 	left:58%;
 }
 }
-@media (max-width:800px){
+/*@media (max-width:800px){
 #pd-closet-graphic {
 	width:33%;
 	position: absolute;
@@ -114,7 +116,7 @@ div.closet-graphic {
 	position: absolute;
 	top:21.5%;
 	left:55%;
-}
+}*/
 }
 .outfit:hover {
 	rotate:20deg;
