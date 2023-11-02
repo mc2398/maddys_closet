@@ -33,6 +33,7 @@ ul {
 	color: black;
 }
 .homepage {
+	background: url('images/homepage-background-graphic-desktop-1.png');
 	/*display: grid;
 	grid-template-columns: 20px 1fr 20px;
 	grid-template-rows: 1fr 300px 200px;
