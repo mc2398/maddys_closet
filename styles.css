@@ -62,7 +62,7 @@ div.closet-graphic {
 	/*display:flex;
 	flex-direction: column;*/
 }
-@media (min-width: 800px){
+@media (min-width: 699px){
 #pd-closet-graphic {
 	width:20%;
 	position: absolute;
@@ -94,7 +94,7 @@ div.closet-graphic {
 	left:58%;
 }
 }
-@media (max-width:799px){
+@media (max-width:600px){
 #pd-closet-graphic {
 	width:50%;
 	position: absolute;
