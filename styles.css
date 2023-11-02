@@ -118,36 +118,37 @@ li.menu {
 
 div.closet-graphic {
 	position: relative;
+	width:100%;
 }
 
 #pd-closet-graphic {
-	width:300px;
+	width:30em;
 	position: absolute;
-	top:165px;
+	top:18%;
 	left:25%;
 }
 #gt-closet-graphic {
-	width:150px;
+	width:12em;
 	position: absolute;
-	top:165px;
+	top:18%;
 	left:37%;
 }
 #bt-closet-graphic {
-	width:300px;
+	width:17em;
 	position: absolute;
-	top:165px;
+	top:18%;
 	left:40%;
 }
 #ps-closet-graphic {
-	width:300px;
+	width:23em;
 	position: absolute;
-	top:102px;
+	top:12%;
 	left:47%;
 }
 #ds-closet-graphic {
-	width:200px;
+	width:15em;
 	position: absolute;
-	top:145px;
+	top:16.5%;
 	left:55%;
 }
 
