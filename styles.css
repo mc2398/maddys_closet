@@ -26,6 +26,7 @@ ul {
 /* header for the Homepage*/
 .homepage-head-background {
 	background: url('images/homepage-header-1.svg');
+/*	background-repeat:no-repeat;*/
 }
 #welcome {
 	font-family: 'Moo Lah Lah', serif;
@@ -33,14 +34,76 @@ ul {
 	color: black;
 }
 .homepage {
-	background: url('images/homepage-background-graphic-desktop-1.png');
-	/*display: grid;
-	grid-template-columns: 20px 1fr 20px;
-	grid-template-rows: 1fr 300px 200px;
-	gap: 20px;*/
 	display: flex;
 	flex-direction: column;
+	width:100%;
 }
+.closet-graphic figure {
+	width:100%;
+	margin:0;
+}
+
+/* Grid Layout- Homepage*/
+
+section.background-graphic {
+	/*background-image: url('images/homepage-background-graphic-desktop-1.png');*/
+	/*background-size:100%;
+	background-repeat:no-repeat;*/
+/*	width:100%;*/
+}
+div.closet-graphic {
+	position: relative;
+	width:100%;
+	/*display:flex;
+	flex-direction: column;*/
+}
+
+#pd-closet-graphic {
+	width:20%;
+	position: absolute;
+	top:30%;
+	left:42%;
+}
+#gt-closet-graphic {
+	width:8%;
+	position: absolute;
+	top:30%;
+	left:50%;
+}
+#bt-closet-graphic {
+	width:10%;
+	position: absolute;
+	top:30%;
+	left:52%;
+}
+#ps-closet-graphic {
+	width:15%;
+	position: absolute;
+	top:23%;
+	left:53%;
+}
+#ds-closet-graphic {
+	width:10%;
+	position: absolute;
+	top:27.5%;
+	left:58%;
+}
+
+.outfit:hover {
+	rotate:20deg;
+	transform:scale(1.1);
+}
+
+/* Homepage- text content styling*/
+.About-Message{
+	font-family: 'Calistoga', serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size:2em;
+}
+
+/* Homepage Nav Bar Styling */
+
 #home-nav {
 	display:flex;
 	flex-direction:row;
@@ -54,8 +117,6 @@ ul {
 }
 
 #navigation-menu {
-	/*grid-column-start:2;
-	grid-row-start:2;*/
 	display:flex;
 	flex-direction:column;
 	text-align:center;
@@ -68,16 +129,7 @@ ul {
 	display:inline-block;
 	font-size:1.75em;
 }
-.closet-graphic {
-	grid-column-start:2;
-	background-color: #FFCAD7;
-}
-#homepage-footer {
-	grid-column-start:2;
-	grid-row-start:3;
-}
 
-/* Homepage Nav Bar Styling */
 #menu-title {
 	margin-left:8%;
 	text-align:left;
@@ -114,57 +166,7 @@ ul {
 li.menu {
 	text-align:center;
 }
-/* Grid Layout- Homepage*/
 
-
-div.closet-graphic {
-	position: relative;
-	width:100%;
-}
-
-#pd-closet-graphic {
-	width:30em;
-	position: absolute;
-	top:18%;
-	left:25%;
-}
-#gt-closet-graphic {
-	width:12em;
-	position: absolute;
-	top:18%;
-	left:37%;
-}
-#bt-closet-graphic {
-	width:17em;
-	position: absolute;
-	top:18%;
-	left:40%;
-}
-#ps-closet-graphic {
-	width:23em;
-	position: absolute;
-	top:12%;
-	left:47%;
-}
-#ds-closet-graphic {
-	width:15em;
-	position: absolute;
-	top:16.5%;
-	left:55%;
-}
-
-.outfit:hover {
-	rotate:20deg;
-	transform:scale(1.1);
-}
-
-/* Homepage- text content styling*/
-.About-Message{
-	font-family: 'Calistoga', serif;
-	margin-left: 400px;
-	margin-right: 400px;
-	font-size:2em;
-}
 
 /* SUB PAGES */
 
@@ -177,6 +179,7 @@ header {
 	color: black;
 	background-color: #000000;
 	padding: 80px 0;
+	width:100%;
 }
 
 .pd-head-background {
