@@ -62,7 +62,7 @@ div.closet-graphic {
 	/*display:flex;
 	flex-direction: column;*/
 }
-@media (min-width: 699px){
+@media (min-width: 799px){
 #pd-closet-graphic {
 	width:20%;
 	position: absolute;
@@ -94,36 +94,36 @@ div.closet-graphic {
 	left:58%;
 }
 }
-@media (max-width:600px){
+@media (max-width:800px){
 #pd-closet-graphic {
-	width:50%;
-	position: absolute;
-	top:30%;
-	left:42%;
-}
-#gt-closet-graphic {
-	width:8%;
-	position: absolute;
-	top:30%;
-	left:50%;
-}
-#bt-closet-graphic {
-	width:10%;
-	position: absolute;
-	top:30%;
-	left:52%;
-}
-#ps-closet-graphic {
-	width:14%;
+	width:33%;
 	position: absolute;
 	top:23.5%;
-	left:53%;
+	left:26%;
+}
+#gt-closet-graphic {
+	width:14%;
+	position: absolute;
+	top:24%;
+	left:38%;
+}
+#bt-closet-graphic {
+	width:17%;
+	position: absolute;
+	top:24%;
+	left:44%;
+}
+#ps-closet-graphic {
+	width:21%;
+	position: absolute;
+	top:17%;
+	left:48%;
 }
 #ds-closet-graphic {
-	width:10%;
+	width:15%;
 	position: absolute;
-	top:27.5%;
-	left:58%;
+	top:21.5%;
+	left:55%;
 }
 }
 .outfit:hover {
