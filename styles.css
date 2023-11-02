@@ -96,7 +96,7 @@ div.closet-graphic {
 }
 @media (max-width:799px){
 #pd-closet-graphic {
-	width:30%;
+	width:50%;
 	position: absolute;
 	top:30%;
 	left:42%;
