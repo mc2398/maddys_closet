@@ -94,8 +94,8 @@ div.closet-graphic {
 /* Homepage- text content styling*/
 .About-Message{
 	font-family: 'Calistoga', serif;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 13%;
+	margin-right: 13%;
 	font-size:2em;
 }
 
@@ -125,6 +125,7 @@ div.closet-graphic {
 .menu {
 	display:inline-block;
 	font-size:1.75em;
+	margin-left:8%;
 }
 
 #menu-title {
@@ -233,10 +234,17 @@ img li {
 }
 }
 /* Text Styling for Body Pages Content */
+@media (min-width: 799px){
 #pd-body-text {
-	color: #FD0073;
+color: #FD0073;
+/*	color: #A6175A;*/
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
+	letter-spacing:.1rem;
+}
+#pd-body-text .subtitle {
+/*	color: #FD0073;*/
+color: #A6175A;
 }
 #gt-body-text {
 	color: #025939;
@@ -257,6 +265,7 @@ img li {
 	color: silver;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
+}
 }
 .ll-title {
 	font-size:1.4em;
