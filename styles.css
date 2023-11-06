@@ -127,6 +127,7 @@ div.closet-graphic {
 	display:inline-block;
 	font-size:1.75em;
 	margin-left:8%;
+	padding-right:50px;
 }
 
 #menu-title {
@@ -138,28 +139,18 @@ div.closet-graphic {
 
 #menu-1 {
 	color:#FD0073;
-	text-decoration: none;
-	padding-right: 50px;
 }
 #menu-2 {
 	color:#025939;
-	text-decoration: none;
-	padding-right: 50px;
 }
 #menu-3 {
 	color:#171117;
-	text-decoration: none;
-	padding-right: 50px;
 }
 #menu-4 {
 	color:#EB6142;
-	text-decoration: none;
-	padding-right: 50px;
 }
 #menu-5 {
 	color:#9F9E9A;
-	text-decoration: none;
-	padding-right: 50px;
 }
 
 li.menu {
@@ -237,18 +228,16 @@ img li {
 /* Text Styling for Body Pages Content */
 @media (min-width: 799px){
 #pd-body-text {
-color: #FD0073;
-/*	color: #A6175A;*/
+	color: #FD0073;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 	letter-spacing:.1rem;
 }
 #pd-body-text .subtitle {
-/*	color: #FD0073;*/
-color: #A6175A;
+color: #42202F;
 }
 #gt-body-text {
-	color: #D950D7;
+	color: #03945F;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 	letter-spacing:.1rem;
@@ -271,6 +260,9 @@ color: #025939;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 	letter-spacing:.1rem;
+}
+#ds-body-text .subtitle {
+color: #6B6B6B;
 }
 }
 .ll-title {
