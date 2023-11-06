@@ -266,17 +266,18 @@ color: #6B6B6B;
 	font-size:1.4em;
 }
 /* Navigation (Buttons) for Sub-Pages*/
-button {
+.fake-button {
 	color: white;
 	background-color: #FFCAD7;
 	padding: 20px;
 	font-size: 1.5em;
 	border-radius: 10px;
 	font-family: 'Gorditas', serif;
-	margin-top: 20px;
+	margin-top: 40px;
+	outline: 2px solid black;
 }
 
-button a {
+.fake-button a {
 	color:white;
 }
 
