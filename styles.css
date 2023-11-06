@@ -1,6 +1,7 @@
+/*linking in css stylesheet to pull in different style defaults for small/mobile screens- note page was not designed mobile first due to the parameters of this project*/
 @import url('mobile-styles.css') (max-width:800px);
 
-/* Styling across all pages*/
+/* Styling "defaults" across all pages*/
 body {
 	color: #F2055C;
 	text-align: center;
@@ -28,7 +29,8 @@ ul {
 /* header for the Homepage*/
 .homepage-head-background {
 	background: url('images/homepage-header-1.svg');
-	/*background-size: 100% 100%;
+	/*preserve-aspect-ratio:none;
+	background-size: 100% 100%;
 	background-repeat:no-repeat;*/
 }
 #welcome {
@@ -93,7 +95,7 @@ div.closet-graphic {
 }
 
 /* Homepage- text content styling*/
-.About-Message{
+.about-message{
 	font-family: 'Calistoga', serif;
 	margin-left: 13%;
 	margin-right: 13%;
@@ -161,10 +163,6 @@ li.menu {
 /* SUB PAGES */
 
 /*Heading for Sub-Pages*/
-.pink-dress {
-	color: #F51387;
-	text-align: center;
-}
 header {
 	color: black;
 	background-color: #000000;
@@ -193,9 +191,9 @@ h1 {
 }
 
 /*Images on sub-Pages*/
-img.subpage-graphic {
+/*img.subpage-graphic {
 	max-width:1000px;
-}
+}*/
 
 
 /* Grid Layout- for Sub-Pages- note media query specifications for mobile/smaller screens included in separate linked stylesheet*/
