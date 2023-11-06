@@ -1,5 +1,7 @@
+/*changing homepage header so that the title stays within page width on mobile*/
 h1#welcome {
-	font-size: 4em;
+	font-size: 5em;
+	display:inline-block;
 }
 
 /*Fixing the Outfit graphics display for the mobile version of the closet graphic*/
