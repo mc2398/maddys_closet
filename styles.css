@@ -29,9 +29,9 @@ ul {
 /* header for the Homepage*/
 .homepage-head-background {
 	background: url('images/homepage-header-1.svg');
-	/*preserve-aspect-ratio:none;
-	background-size: 100% 100%;
-	background-repeat:no-repeat;*/
+/*	preserve-aspect-ratio:none;*/
+/*	background-size: 100% 100%;*/
+/*	background-repeat:no-repeat;*/
 }
 #welcome {
 	font-family: 'Moo Lah Lah', serif;

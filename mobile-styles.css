@@ -1,3 +1,7 @@
+h1#welcome {
+	font-size: 5em;
+}
+
 /*Fixing the Outfit graphics display for the mobile version of the closet graphic*/
 #pd-closet-graphic {
 	width:33%;
