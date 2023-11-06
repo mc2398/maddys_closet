@@ -188,6 +188,9 @@ header {
 .gt-head-background {
 	background: url('images/green-top-header-2.svg');
 }
+.ps-head-background {
+	background-color:#FF7ADE;
+}
 h1 {
 	background-color: white;
 	margin-right: 40px;
@@ -223,6 +226,10 @@ li {
 }
 }
 /* Text Styling for Body Pages Content */
+.outfit-specs h2{
+	font-size:1.25em;
+}
+
 @media (min-width: 799px){
 #pd-body-text {
 	color: #FD0073;
@@ -304,6 +311,4 @@ button {
 #pleated-home-button {
 	background-color: #EB6142;
 }
-
-
 
