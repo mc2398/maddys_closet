@@ -28,8 +28,8 @@ ul {
 /* header for the Homepage*/
 .homepage-head-background {
 	background: url('images/homepage-header-1.svg');
-	background-size: 100% 100%;
-	background-repeat:no-repeat;
+	/*background-size: 100% 100%;
+	background-repeat:no-repeat;*/
 }
 #welcome {
 	font-family: 'Moo Lah Lah', serif;
@@ -198,7 +198,7 @@ img.subpage-graphic {
 }
 
 
-/* Grid Layout- for Sub-Pages*/
+/* Grid Layout- for Sub-Pages- note media query specifications for mobile/smaller screens included in separate linked stylesheet*/
 @media (min-width: 799px){
 .outfit-specs {
 	display: grid;
@@ -208,6 +208,7 @@ img.subpage-graphic {
 }
 .subtitle {
 	grid-column-start: 2;
+	font-size:1.5em;
 }
 .content {
 	grid-column-start: 3;
@@ -215,16 +216,10 @@ img.subpage-graphic {
 	text-align:left;
 	padding-top: 20px;
 }
-.subtitle {
-	font-size:1.5em;
-}
 li {
 	padding: 5px;
 }
-img li {
-	max-width: 300px;
-}
-}
+
 /* Text Styling for Body Pages Content */
 @media (min-width: 799px){
 #pd-body-text {
@@ -256,7 +251,7 @@ color: #025939;
 	font-size: 1.5em;
 }	
 #ds-body-text {
-	color: silver;
+	color: #9F9E9A;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 	letter-spacing:.1rem;

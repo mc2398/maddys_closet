@@ -53,29 +53,29 @@
 }
 #pd-body-text .subtitle {
 	padding: 0 2%;
-	background-color:#F2BDD6;
+	background-color:#FD0073;
 	outline: 2px solid black;
 	color: white;
 }
 #pd-body-text {
-	color:#A6175A;
+	color:#42202F;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 }
 #gt-body-text .subtitle {
 	padding: 0 2%;
-	background-color:#94E572;
+	background-color:#025939;
 	outline: 2px solid black;
 	color: white;
 }
 #gt-body-text {
-	color:#025939;
+	color:#03945F;
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 }
 #ds-body-text .subtitle {
 	padding: 0 2%;
-	background-color:#FFA2CC;
+	background-color:#6B6B6B;
 	outline: 2px solid black;
 	color: white;
 }
