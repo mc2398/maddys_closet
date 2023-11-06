@@ -84,34 +84,3 @@
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 }
-
-/* Navigation (Buttons) for Sub-Pages- overriding defaults*/
-button {
-	color: white;
-	background-color: #FFCAD7;
-	padding: 20px;
-	font-size: 1.5em;
-	border-radius: 10px;
-	font-family: 'Gorditas', serif;
-	margin-top: 20px;
-}
-
-button a {
-	color:white;
-}
-
-#pink-home-button {
-	background-color: #F2055C;
-}
-#disco-home-button {
-	background-color: silver;
-}
-#green-home-button {
-	background-color: #94E572;
-}
-#tee-home-button {
-	background-color: black;
-}
-#pleated-home-button {
-	background-color: #EB6142;
-}
