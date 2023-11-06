@@ -190,11 +190,6 @@ h1 {
 	font-size: 0.75em;
 }
 
-/*Images on sub-Pages*/
-/*img.subpage-graphic {
-	max-width:1000px;
-}*/
-
 
 /* Grid Layout- for Sub-Pages- note media query specifications for mobile/smaller screens included in separate linked stylesheet*/
 @media (min-width: 799px){
