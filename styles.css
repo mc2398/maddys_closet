@@ -54,8 +54,6 @@ ul {
 div.closet-graphic {
 	position: relative;
 	width:100%;
-	/*display:flex;
-	flex-direction: column;*/
 }
 @media (min-width: 799px){
 #pd-closet-graphic {
@@ -131,7 +129,9 @@ div.closet-graphic {
 	margin-left:8%;
 	padding-right:50px;
 }
-
+.menu a {
+	text-decoration:none;
+}
 #menu-title {
 	margin-left:8%;
 	text-align:left;
@@ -158,7 +158,10 @@ div.closet-graphic {
 li.menu {
 	text-align:center;
 }
-
+/*adding underlines to sub page links when hovered over for accessibility*/
+.menu a:hover{
+	text-decoration:underline;
+}
 
 /* SUB PAGES */
 
