@@ -294,6 +294,11 @@ button {
 	font-family: 'Gorditas', serif;
 	margin-top: 40px;
 	outline: 2px solid black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:underline;
 }
 
 #pink-home-button {
