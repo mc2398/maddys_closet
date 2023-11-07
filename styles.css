@@ -17,7 +17,7 @@ nav {
 	background-color: white;
 	text-align: center;
 	padding: 5px;
-	margin-top:30px;
+	margin-top:50px;
 }
 ul {
 	list-style-type: none;
@@ -162,9 +162,10 @@ div.closet-graphic {
 	color:#9F9E9A;
 }
 
-li.menu {
+/*li.menu {
 	text-align:center;
-}
+	align-items:left;
+}*/
 /*adding underlines to sub page links when hovered over for accessibility*/
 .menu a:hover{
 	text-decoration:underline;
@@ -198,6 +199,7 @@ h1 {
 	margin-left: 40px;
 	padding: 5px;
 	font-family: 'Gorditas', serif;
+	font-size: 3em;
 }
 .subhead {
 	font-size: 0.75em;
@@ -232,7 +234,7 @@ li {
 }
 
 .sub-body {
-	margin-bottom:20px;
+	margin-bottom:50px;
 }
 
 @media (min-width: 799px){
